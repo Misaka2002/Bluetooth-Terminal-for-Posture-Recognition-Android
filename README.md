@@ -85,7 +85,7 @@ macOS / Linux 使用：
 ./gradlew :core:test :app:testDebugUnitTest :app:assembleDebug :app:lintDebug
 ```
 
-调试 APK 位于 `app/build/outputs/apk/debug/app-debug.apk`。它适合开发和测试。正式发行应使用自己长期保管的签名密钥，创建和签名步骤见[签名与发行指南](docs/signing.md)。
+构建完成后，可将 `app/build/outputs/apk/debug/app-debug.apk` 安装到安卓手机上使用。
 
 `core/` 存放协议解析、计时和报告逻辑；`app/` 存放安卓界面、蓝牙服务、本地保存与导出。自动测试覆盖解析、分片接收、超时、断开和统计一致性。本版本已完成实机功能测试。不同设备的蓝牙与后台运行表现仍需分别确认。
 

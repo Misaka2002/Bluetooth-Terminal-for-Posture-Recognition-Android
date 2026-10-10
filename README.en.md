@@ -85,7 +85,7 @@ On macOS / Linux:
 ./gradlew :core:test :app:testDebugUnitTest :app:assembleDebug :app:lintDebug
 ```
 
-The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk`. Use it for development and testing. Public releases should use a signing key you keep for future updates; see the [signing and release guide](docs/signing.en.md).
+After the build completes, install `app/build/outputs/apk/debug/app-debug.apk` on your Android phone to use the app.
 
 `core/` contains protocol parsing, timing, and report generation. `app/` contains the Android interface, Bluetooth service, local storage, and export features. Automated tests cover parsing, fragmented input, timeouts, disconnects, and statistical consistency. This version has been tested on physical hardware. Bluetooth and background behavior should still be checked on each target device.
 
