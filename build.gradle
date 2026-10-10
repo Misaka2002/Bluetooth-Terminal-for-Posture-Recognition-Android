@@ -1,3 +1,13 @@
 plugins {
     id 'com.android.application' version '8.9.2' apply false
 }
+
+// 源码始终使用 UTF-8；Gradle 的 Java 参数文件使用系统编码以兼容 Windows 中文路径。
+subprojects {
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+    tasks.withType(Test).configureEach {
+        systemProperty 'file.encoding', 'UTF-8'
+    }
+}
