@@ -1,0 +1,5 @@
+<resources>
+    <string name="connection_status">%1$s · %2$s</string>
+    <string name="current_duration">%1$s · 当前连续 %2$s</string>
+    <string name="session_duration">会话 %1$s · %2$d 条有效数据</string>
+</resources>
