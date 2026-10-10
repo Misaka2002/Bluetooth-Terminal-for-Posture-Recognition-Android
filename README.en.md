@@ -8,6 +8,10 @@ This is the Android companion to the [Windows posture terminal](https://github.c
 
 [View the full interface preview](docs/images/android-demo.png). This preview uses simulated data and was rendered by an Android native graphics test environment.
 
+## Download and install
+
+This is a test version. Visit the [Release page](https://github.com/Misaka2002/Bluetooth-Terminal-for-Posture-Recognition-Android-/releases/tag/v0.1.0) or [download the APK directly](https://github.com/Misaka2002/Bluetooth-Terminal-for-Posture-Recognition-Android-/releases/download/v0.1.0/PostureDashboard-Android-v0.1.0.apk), then install it on a phone running Android 8.0 or later. No source build is required.
+
 ## Getting started
 
 Install the APK and tap “演示模式” (Demo mode) to explore the interface without hardware. Demo sessions and device sessions are saved separately.

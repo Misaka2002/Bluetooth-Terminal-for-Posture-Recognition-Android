@@ -8,6 +8,10 @@
 
 [查看完整界面预览](docs/images/android-demo.png)（使用模拟数据，由 Android 原生图形测试环境生成）。
 
+## 下载安装
+
+这是测试版。前往 [Release 页面](https://github.com/Misaka2002/Bluetooth-Terminal-for-Posture-Recognition-Android-/releases/tag/v0.1.0)，或直接[下载 APK](https://github.com/Misaka2002/Bluetooth-Terminal-for-Posture-Recognition-Android-/releases/download/v0.1.0/PostureDashboard-Android-v0.1.0.apk)，传到 Android 8.0 及以上的手机安装即可使用，无需从源码构建。
+
 ## 开始使用
 
 安装 APK 后，可以先点“演示模式”体验界面，无需连接硬件。演示记录与真实设备记录分别保存。
